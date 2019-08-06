@@ -1,0 +1,21 @@
+{ 
+  "author": {
+    "name": "gkc"
+  },
+  "dependencies": {
+    "mqtt": "2.18.8"
+  },
+  "description": "Connect to Aliyun Iot Platform",
+  "devDependencies": {},
+  "keywords": [
+    "node-red"
+  ],
+  "license": "MIT",
+  "name": "testAlimqtt",
+  "node-red": {
+    "nodes": {
+      "alimqtt": "alimqtt/alimqtt.js"
+    }
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,118 @@
+<script type="text/javascript">
+    RED.nodes.registerType('alimqtt connector',{       
+	category: 'aliCloud',  
+        color: '#a6bbcf',
+	credentials: {
+ 	    productKey: {type:"password"},
+	    deviceName: {type:"text"},
+	    deviceSecret:{type:"password"},
+		
+        },
+	defaults:{
+	    regionId: {
+  		value:"cn-shanghai",
+		required: true
+		},
+        subscribeTopic:{
+            value:"user/control"
+        }		
+	},
+	
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"alimqtt connector";
+        }
+        // node definition
+    });
+</script>
+
+<script type="text/x-red" data-template-name="alimqtt connector">     
+    <div class="form-row">
+        <label for="node-input-productKey"><i class="icon-tag"></i> ProductKey</label>
+        <input type="text" id="node-input-productKey">
+    </div>
+    <div class="form-row">
+        <label for="node-input-deviceName"><i class="icon-tag"></i> deviceName</label>
+        <input type="text" id="node-input-deviceName" >
+    </div>
+    <div class="form-row">
+        <label for="node-input-deviceSecret"><i class="icon-tag"></i> deviceSecret</label>
+        <input type="text" id="node-input-deviceSecret" >
+    </div>
+    <div class="form-row">
+        <label for="node-input-regionId"><i class="icon-tag"></i> regionId</label>
+        <input type="text" id="node-input-regionId" >
+    </div>
+    <br/>
+    <div class="form-row">
+        <label for="node-input-subscribeTopic"><i class="icon-tag"></i> Subscribe Topic</label>
+        <input type="text" id="node-input-subscribeTopic" >
+    </div>
+
+</script>
+
+<script type="text/x-red" data-help-name="alimqtt connector">  
+   <p>Some useful help text to introduce the node.</p>
+   <h3>Outputs</h3>
+       <dl class="message-properties">
+       <dt>payload
+           <span class="property-type">string | buffer</span>
+       </dt>
+   <h3>Details</h3>
+   <p>Some more information about the node.</p>
+</script>
+<!-- ######################################################################################## -->
+<script type="text/x-red" data-help-name="alimqtt property">  
+    <p>Some useful help text to introduce the node.</p>
+    <h3>Outputs</h3>
+        <dl class="message-properties">
+        <dt>payload
+            <span class="property-type">string | buffer</span>
+        </dt>
+    <h3>Details</h3>
+    <p>Some more information about the node.</p>
+ </script>
+
+ <script type="text/x-red" data-template-name="alimqtt property">     
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Property name</label>
+        <input type="text" id="node-input-name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-value"><i class="icon-tag"></i> Value</label>
+        <input type="text" id="node-input-value" >
+    </div>
+
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('alimqtt property',{       
+        category: 'aliCloud',  
+            color: '#a6bbcf',
+        defaults:{
+            name: {
+                value:"temperature"
+            },	
+            value: {
+                value: 0
+            }         
+        },	
+            inputs:1,
+            outputs:1,
+            icon: "file.png",
+            label: function() {
+                return this.name||"alimqtt property";
+            },
+            labelStyle: function() {
+                return this.name?"node_label_italic":"";
+            }
+            // node definition
+           
+    }
+)
+</script>
+
+
+
