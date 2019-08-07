@@ -18,4 +18,4 @@
 
 ![编辑property节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/property.jpg)
 
-![flow]https://github.com/guokaicheng/testAliMqtt/blob/master/doc/flow.jpg
+![flow](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/flow.jpg)
