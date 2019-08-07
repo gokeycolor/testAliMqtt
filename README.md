@@ -14,4 +14,4 @@
  `/usr/bin/node /usr/lib/node_modules/node-red/red & `
  
 # 编辑flow
-https://github.com/guokaicheng/testAliMqtt/blob/master/flow.jpg
+https://github.com/guokaicheng/testAliMqtt/blob/master/flow.jpg?raw=true
