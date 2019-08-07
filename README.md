@@ -14,8 +14,8 @@
  `/usr/bin/node /usr/lib/node_modules/node-red/red & `
  
 # 编辑flow
-https://github.com/guokaicheng/testAliMqtt/raw/master/doc/connector.jpg
+![编辑connector节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/connector.jpg)
 
-https://github.com/guokaicheng/testAliMqtt/raw/master/doc/property.jpg
+![编辑property节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/property.jpg)
 
-https://github.com/guokaicheng/testAliMqtt/raw/master/doc/flow.jpg
+![flow]https://github.com/guokaicheng/testAliMqtt/blob/master/doc/flow.jpg
