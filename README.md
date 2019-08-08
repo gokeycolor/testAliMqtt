@@ -20,7 +20,8 @@
 
 ![查看节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/nodes.jpg)
 
-按下图填写各结点属性参数
+按下图填写alimqtt connector 和 alimqtt properties 结点参数
+
 ![编辑connector节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/connector.jpg)
 
 ![编辑property节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/property.jpg)
