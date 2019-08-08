@@ -19,3 +19,6 @@
 ![编辑property节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/property.jpg)
 
 ![flow](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/flow.jpg)
+
+在阿里云物联网平台如何创建产品与设备，如何为产品定义物模型以及如何获取设备三元组，请参考以下链接
+https://help.aliyun.com/document_detail/73705.html?spm=5176.10695662.1996646101.searchclickresult.714039eemagVnN
