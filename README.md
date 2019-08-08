@@ -17,6 +17,7 @@
 在浏览器中输入地址 http://iot2040IPaddress:1880 进入 Node-red 编辑界面
 在浏览器左侧找到需要使用的节点
 ![查看节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/nodes.jpg)
+
 按下图填写各结点属性参数
 ![编辑connector节点](https://github.com/guokaicheng/testAliMqtt/blob/master/doc/connector.jpg)
 
